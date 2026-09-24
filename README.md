@@ -101,24 +101,6 @@ python DANAM_main.py --dataset Telco  --lam 1e-2 --n_repeats 10
 
 </details>
 
-## 📊 Experimental Results
-
-Macro-F1 (↑) on the simulated data (10 repeats, 8:1:1 split). The 10% outlier / mislabeled corruptions and the 1:10 imbalance are applied to the training set only:
-
-| Scenario | Test Macro-F1 | Test Error Rate |
-|----------|:------------:|:---------------:|
-| Clean | 0.9117 ± 0.0210 | 0.0880 |
-| **10% outliers** | **0.9220 ± 0.0344** | 0.0775 |
-| **10% mislabeled** | **0.8972 ± 0.0186** | 0.1025 |
-| **1:10 imbalanced** | **0.8513 ± 0.0311** | 0.1465 |
-| Clean, λ = 0 (DANAM−) | 0.9117 ± 0.0255 | 0.0880 |
-
-**Shape-function recovery** (Fig. 2 of the paper) — learned curves closely track the six ground-truth component functions under all perturbation settings:
-
-<p align="center">
-  <img src="codes/codes_DANAM/logs/shape_clean.png" width="720" alt="Shape-function recovery on clean simulated data"/>
-</p>
-
 ## 📁 Project Structure
 
 ```
