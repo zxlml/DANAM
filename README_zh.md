@@ -1,10 +1,8 @@
 <div align="center">
 
-# 🧠 DANAM：分布感知神经可加模型
+# 🧠 Distribution-Aware Neural Additive Models: Robust Interpretable Deep Learning with Feature Selection
 
-**鲁棒且可解释的深度学习与特征选择**
-
-[![Paper](https://img.shields.io/badge/Paper-ICASSP%202026-4C1FBD?logo=ieee&logoColor=white)](https://github.com/zxlml/DANAM)
+[![Paper](https://img.shields.io/badge/Paper-ICASSP%202026-4C1FBD?logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/abstract/document/11463944)
 [![Framework](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-1F6FEB)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -119,19 +117,6 @@ DANAM
 │   └── run.sh
 ```
 
-## 📖 引用
-
-如果本仓库对你的研究有帮助，请引用：
-
-```bibtex
-@inproceedings{chen2026danam,
-  title     = {Distribution-Aware Neural Additive Models: Robust Interpretable Deep Learning with Feature Selection},
-  author    = {Chen, Jingyi and Zhang, Xuelin and Yuan, Peipei and Liu, Liyuan and Chen, Hong},
-  booktitle = {Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year      = {2026}
-}
-```
-
 ## 🙏 致谢
 
 本项目基于 [NAM](https://arxiv.org/abs/2204.01513)（Neural Additive Models）以及 Chen 等人的 EDF 经验风险最小化框架（*Expert Systems with Applications*, 2024）构建，并感谢 [Sparse NAM](https://link.springer.com/chapter/10.1007/978-3-031-26409-2_32) 作者提供的组稀疏建模思路。
@@ -139,3 +124,18 @@ DANAM
 ## 许可证
 
 本项目采用 [Apache License 2.0](./LICENSE) 发布。
+
+## 📖 引用
+
+如果本仓库对你的研究有帮助，请引用（BibTeX 可从 [Google Scholar](https://scholar.google.com) 获取）：
+
+```bibtex
+@inproceedings{chen2026distributionaware,
+  title        = {Distribution-Aware Neural Additive Models: Robust Interpretable Deep Learning with Feature Selection},
+  author       = {Chen, Jingyi and Zhang, Xuelin and Yuan, Peipei and Liu, Liyuan and Chen, Hong},
+  booktitle    = {ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages        = {1--5},
+  year         = {2026},
+  organization = {IEEE}
+}
+```

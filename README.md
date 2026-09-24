@@ -1,10 +1,8 @@
 <div align="center">
 
-# 🧠 DANAM: Distribution-Aware Neural Additive Models
+# 🧠 Distribution-Aware Neural Additive Models: Robust Interpretable Deep Learning with Feature Selection
 
-**Robust Interpretable Deep Learning with Feature Selection**
-
-[![Paper](https://img.shields.io/badge/Paper-ICASSP%202026-4C1FBD?logo=ieee&logoColor=white)](https://github.com/zxlml/DANAM)
+[![Paper](https://img.shields.io/badge/Paper-ICASSP%202026-4C1FBD?logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/abstract/document/11463944)
 [![Framework](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-1F6FEB)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -119,19 +117,6 @@ DANAM
 │   └── run.sh
 ```
 
-## 📖 Citation
-
-If this repository is helpful to your research, please cite:
-
-```bibtex
-@inproceedings{chen2026danam,
-  title     = {Distribution-Aware Neural Additive Models: Robust Interpretable Deep Learning with Feature Selection},
-  author    = {Chen, Jingyi and Zhang, Xuelin and Yuan, Peipei and Liu, Liyuan and Chen, Hong},
-  booktitle = {Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year      = {2026}
-}
-```
-
 ## 🙏 Acknowledgements
 
 This project builds upon [NAM](https://arxiv.org/abs/2204.01513) (Neural Additive Models) and the EDF-based empirical risk minimization framework of Chen et al., *Expert Systems with Applications*, 2024. We thank the authors of [Sparse NAM](https://link.springer.com/chapter/10.1007/978-3-031-26409-2_32) for the group-sparsity formulation.
@@ -139,3 +124,18 @@ This project builds upon [NAM](https://arxiv.org/abs/2204.01513) (Neural Additiv
 ## License
 
 This project is released under the [Apache License 2.0](./LICENSE).
+
+## 📖 Citation
+
+If this repository is helpful to your research, please cite (BibTeX from [Google Scholar](https://scholar.google.com)):
+
+```bibtex
+@inproceedings{chen2026distributionaware,
+  title        = {Distribution-Aware Neural Additive Models: Robust Interpretable Deep Learning with Feature Selection},
+  author       = {Chen, Jingyi and Zhang, Xuelin and Yuan, Peipei and Liu, Liyuan and Chen, Hong},
+  booktitle    = {ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages        = {1--5},
+  year         = {2026},
+  organization = {IEEE}
+}
+```
