@@ -135,7 +135,6 @@ DANAM
 │   ├── logs                   # 实验汇总（results.csv）+ 形状函数图
 │   ├── requirements.txt
 │   └── run.sh
-└── DANAM.pdf                  # 论文手稿
 ```
 
 ## 📖 引用

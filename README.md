@@ -135,7 +135,6 @@ DANAM
 │   ├── logs                   # Experiment summaries (results.csv) + shape plots
 │   ├── requirements.txt
 │   └── run.sh
-└── DANAM.pdf                  # Paper manuscript
 ```
 
 ## 📖 Citation
